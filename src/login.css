@@ -1,0 +1,49 @@
+.container{
+	max-width: 48rem;
+	border:1px solid #d6d6d6;
+	border-radius: 2px;
+	background-color: #fff;
+	position:relative;
+	margin:1.25rem auto;
+}
+
+.title{
+	font-weight: normal;
+	display: flex;
+	justify-content: center;
+	padding:1rem;
+	font-size:1rem;
+	border-bottom: 1px solid #e8edf3;
+}
+.field{
+	width:24rem;
+	margin: 1rem auto;
+}
+.field span{
+	display:flex;
+	-webkit-box-align:center;
+	align-items:center;
+	padding: .625rem 0;
+}
+
+.field input{
+	width:15rem;
+	height:2rem;
+	margin-left:1rem;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding-left:.3rem;
+}
+.field label{
+	width:5rem;
+}
+.field button{
+	width:10rem;
+	height:2.5rem;
+	background-color: #314f96;
+	margin: 1rem 0 0 7rem;
+	color:#fff;
+	border-radius: 3px;
+	border: none;
+	cursor:pointer;
+}

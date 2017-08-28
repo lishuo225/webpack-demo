@@ -1,0 +1,36 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+html{
+	font-family: Avenir Next,Helvetica Neue,Helvetica,Arial,\\5FAE\8F6F\96C5\9ED1,Microsoft YaHei,Hiragino Sans GB,\\534E\6587\7EC6\9ED1,STHeiti,SimHei,sans-serif;
+    font-size: 16px;
+}
+body{
+	font-size:.875rem;
+	background-color: #f3f5f8;
+}
+.header-nav {
+	background-color: #104080;
+	display: flex;
+}
+.header-nav a{
+	color: #fff;
+}
+.header-nav .txt{
+	flex: 1;
+	color:red;
+}
+.header-nav ul{
+	flex: 1;
+	padding:1rem  5% 1rem 10%;
+	background-color: #104080;
+}
+.header-nav li{
+	display:inline-flex;
+	width:50%;
+	list-style: none;
+	cursor: pointer;
+	text-align:center;
+}
